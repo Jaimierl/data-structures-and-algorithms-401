@@ -12,7 +12,7 @@
 - [Linked Lists Insertions](/code_challenges/linked_list_insertions/README.md)
 - [Linked Lists Finding Values](/code_challenges/linked_list_kth/README.md)
 - [Linked Lists Finding Zip](/python/code_challenges/linked_list_zip/README.md)
-- [Stacks and Queues - First Implementation](python/data_structures/ReadStacksQueues.md)
+- [Stacks and Queues - First Implementation](/python/data_structures/ReadStacksQueues.md)
 
 
 ### Folder and Challenge Setup
