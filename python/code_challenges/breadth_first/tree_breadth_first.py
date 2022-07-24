@@ -1,26 +1,24 @@
 from .binary_tree import BinaryTree
 from .queue import Queue
-from .invalid_operation_error import InvalidOperationError
 
 
 def breadth_first(tree):
-
     tree_queue = Queue()
+
     tree_list = []
 
-    try:
-        if not tree.root:
-            pass
-        else:
-            tree_queue.enqueue(tree.root)
-            while tree_queue.front:
-                if front_node.left:
-                    tree_queue.enqueue(front_node.left)
-                if front_node.right:
-                    tree_queue.enqueue(front_node.right)
-                front_node = tree_queue.dequeue(tree_queue.front)
-                tree_list.append(front_node.value)
-        return tree_list
+    # if tree.root is None:
+    #     return tree_list
+    # This is not working for some reason
 
-    except:
-        raise InvalidOperationError
+    tree_queue.enqueue(tree.root)
+
+    while tree_queue.front:
+        front_node = tree_queue.dequeue()
+        tree_list.append(front_node.value)
+        if front_node.left:
+            tree_queue.enqueue(front_node.left)
+        if front_node.right:
+            tree_queue.enqueue(front_node.right)
+    print(tree_list)
+    return tree_list
