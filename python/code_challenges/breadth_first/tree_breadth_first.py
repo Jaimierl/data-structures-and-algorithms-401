@@ -1,6 +1,4 @@
 from .queue import Queue
-from .binary_tree import BinaryTree, Node
-from .invalid_operation_error import InvalidOperationError
 
 
 def breadth_first(tree):
@@ -8,9 +6,11 @@ def breadth_first(tree):
 
     tree_list = []
 
-    # if tree.root == None:
-    #     print("inside")
-    #     return
+
+    # if tree.root is None:
+    #     return tree_list
+    # This is not working for some reason
+
 
     tree_queue.enqueue(tree.root)
 
@@ -20,13 +20,7 @@ def breadth_first(tree):
 
         if front_node.left:
             tree_queue.enqueue(front_node.left)
-
         if front_node.right:
             tree_queue.enqueue(front_node.right)
-
     print(tree_list)
     return tree_list
-
-if __name__ == "__main__":
-    tree = BinaryTree()
-    breadth_first(tree)
