@@ -165,6 +165,7 @@ Now let's sort and merge the pieces:
 According to [Geeks for Geeks](https://www.geeksforgeeks.org/quick-sort-vs-merge-sort/#:~:text=Merge%20sort%20is%20more%20efficient,larger%20array%20size%20or%20datasets.&text=Quick%20sort%20is%20more%20efficient,smaller%20array%20size%20or%20datasets.), there is a benefit to using merge sort over quick sort for larger datasets. While merge sort breaks every array into two parts so it can be done recursively, it seems like it would be faster to break the original dataset into n/2 parts from the beginning and then begin the sorting from there instead of taking the time to break the dataset into two over and over until we get arrays of one and two elements. In any event, it is interesting to look under the hood at how something like this comes together.
 
 # Resources
+Worked with Aoife
 
 While loops need parenthesis for multiple conditions as we can see [here](https://initialcommit.com/blog/python-while-loop-multiple-conditions)
 
