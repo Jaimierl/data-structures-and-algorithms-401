@@ -21,6 +21,7 @@ Size - Returns the total number of nodes in the graph
 # Resources
 
 Starter Code: <https://www.educative.io/answers/how-to-implement-a-graph-in-python>
+Raising Key Errors: <https://careerkarma.com/blog/python-keyerror/?v=2>
 
 See the code [here](/data_structures/graph/graph.py)
 See the tests [here](/data_structures/graph/test_graph.py)
