@@ -1,5 +1,5 @@
 import pytest
-from data_structures.graph import Graph, Vertex
+from .graph import Graph, Vertex
 
 
 @pytest.mark.skip("TODO")
@@ -11,7 +11,7 @@ def test_full(graph_and_root):
     assert actual == expected
 
 
-@pytest.mark.skip("TODO")
+# @pytest.mark.skip("TODO")
 def test_empty():
     graph = Graph()
     node = Vertex("some other node")
