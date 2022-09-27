@@ -28,6 +28,8 @@
 - [Hash Table - Repeated Word](/code_challenges/hashmap_repeated_word/README.md)
 - [Hash Table - Tree Intersection](/code_challenges/tree_intersection/README.md)
 - [Hash Table - Left Join](/code_challenges/hashmap_left_join/README.md)
+- [Graph Implementation](/data_structures/graph/README.md)
+- [Graph Depth First Search Traversal](/code_challenges/graph_depth_first/README.md)
 
 
 ### Folder and Challenge Setup
