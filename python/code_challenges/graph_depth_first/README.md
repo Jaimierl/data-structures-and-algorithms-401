@@ -12,8 +12,9 @@ Program output: Display the collection as a list of node values
 ## Approach & Efficiency
 
 The approach is to create a method in the graph implementation that adds the functionality described in the API section.
+![See my the plan from the whiteboard here](/code_challenges/graph_depth_first/Graph - Depth First.png)
 
-# Resources
+## Resources
 
 See the code [here](/code_challenges/graph_depth_first/graph.py)
 See the tests [here](/code_challenges/graph_depth_first/test_graph_depth_first.py)
